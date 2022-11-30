@@ -66,7 +66,7 @@ function App() {
             <Route path="/forums/postlist" element={<PostList />} />
             <Route path="/forums/post" element={<Post />} />
             <Route path="/forums/addpost" element={<AddPost />} />
-            <Route path="/roadmap" element={<Roadmap />} />
+            <Route path="/roadmap" element={<Roadmap state={appState} />} />
             <Route path="/register" element={<Registration />} />
             <Route path="/logout" element={<Logout />}></Route>
           </Routes>
